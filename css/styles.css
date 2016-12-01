@@ -4,6 +4,13 @@ YOUR STYLES
 
 /* SECTION STYLING */
 
+    /* get weather icons */
+        @import url("https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css");
+
+    .i {
+        color: #ECF0F1;
+    }
+
     * {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
