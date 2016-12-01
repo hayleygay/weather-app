@@ -2,18 +2,55 @@
 YOUR STYLES
 *******************/
 
-h1 {
-  font-size: 3em;
-  color: black;
-  text-transform: uppercase;
-}
+/* SECTION STYLING */
 
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
 
-.bg-25,
-.bg-26,
-.bg-27 {
-  background: #BFBFBF;
-}
+    main {
+        background: #BDC3C7;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 20px;
+    
+        /* flexbox */
+            display: flex;
+            flex-flow: row wrap;
+    }
+
+    section {
+        background: #34495E;
+        border-radius: 10px;
+        padding: 1em;
+        margin: 1em;
+        /* flexbox as child */
+            flex: 1 0 200px;
+        /* flexbox as parent */
+        
+    }
+
+/* TEXT STYLING */
+
+    h1 {
+      margin: auto;
+      font-size: 2em;
+      color: #ECF0F1;
+      text-transform: uppercase;
+    }
+
+    h3 {
+        margin: auto;
+        color: #ECF0F1;
+    }
+
+    .bg-25,
+    .bg-26,
+    .bg-27 {
+      background: #BFBFBF;
+    }
 
 
 /********************
