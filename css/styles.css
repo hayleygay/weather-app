@@ -2,7 +2,16 @@
 YOUR STYLES
 *******************/
 
+h1 {
+  font-size: 4em;
+  color: white;
+}
 
+.bg-25,
+.bg-26,
+.bg-27 {
+  background: #BFBFBF;
+}
 
 
 /********************
