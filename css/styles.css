@@ -3,9 +3,11 @@ YOUR STYLES
 *******************/
 
 h1 {
-  font-size: 4em;
-  color: white;
+  font-size: 3em;
+  color: black;
+  text-transform: uppercase;
 }
+
 
 .bg-25,
 .bg-26,
