@@ -1,5 +1,6 @@
 // Spokane
 
+
 $.simpleWeather({
     location: '99205',
     unit: 'f',
@@ -94,6 +95,4 @@ $.simpleWeather({
     }
   
   });
-
-//GEOLOCATION
 
