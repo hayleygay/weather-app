@@ -18,11 +18,12 @@ YOUR STYLES
         box-sizing: border-box;
     }
 
-    main {
+    body{
         background: #22313F;
-        padding: 1em;
-        margin: 1em;
-        border-radius: 20px;
+    }
+
+    main {
+        padding: 2em;
     
         /* flexbox */
             display: flex;
@@ -47,6 +48,16 @@ img {
 }
 
 /* TEXT STYLING */
+
+    .head {
+        margin: auto;
+        padding-top: 5px;
+        color: #ECF0F1;
+        font-family: 'Lato', sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 6em;}
 
     h1 {
       margin: auto;
@@ -73,11 +84,6 @@ img {
       font-size: 1em;
     }
 
-    .bg-25,
-    .bg-26,
-    .bg-27 {
-      background: #BFBFBF;
-    }
 
 /********************
 MEDIA QUERIES
