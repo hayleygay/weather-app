@@ -1,6 +1,6 @@
 // Spokane
 
-
+$(document).ready(function() {
 $.simpleWeather({
     location: '99205',
     unit: 'f',
@@ -11,12 +11,9 @@ $.simpleWeather({
       $('.spokane .city').text(weather.city);
       $('.spokane img').attr('src', weather.image);
       $('.spokane title').text(weather.title);
-      
-      //  If this condition, show this icon
-      if ( 26 >= weather.code && 30 <= weather.code ) {
-          $('.spokane .wi').addClass('wi-day-cloudy');
-      }
-        
+      $('.spokane .currently').text(weather.currently);      
+
+    
       // Entire weather object
       console.log(weather);
     },
@@ -26,9 +23,11 @@ $.simpleWeather({
     }
   
   });
+});
 
 // Phoenix
 
+$(document).ready(function() {
 $.simpleWeather({
     location: '85034',
     unit: 'f',
@@ -39,7 +38,8 @@ $.simpleWeather({
       $('.phoenix .city').text(weather.city);
       $('.phoenix img').attr('src', weather.image);
       $('.phoenix title').text(weather.title);
-      
+      $('.phoenix .currently').text(weather.currently);  
+    
       // Entire weather object
       console.log(weather);
     },
@@ -49,9 +49,12 @@ $.simpleWeather({
     }
   
   });
+});
 
 // Los Angeles
 
+
+$(document).ready(function() {
 $.simpleWeather({
     location: '90045',
     unit: 'f',
@@ -62,6 +65,7 @@ $.simpleWeather({
       $('.la .city').text(weather.city);
       $('.la img').attr('src', weather.image);
       $('.la title').text(weather.title);
+      $('.la .currently').text(weather.currently); 
       
       // Entire weather object
       console.log(weather);
@@ -72,9 +76,11 @@ $.simpleWeather({
     }
   
   });
+});
 
 // Seattle
 
+$(document).ready(function() {
 $.simpleWeather({
     location: '98101',
     unit: 'f',
@@ -85,6 +91,8 @@ $.simpleWeather({
       $('.seattle .city').text(weather.city);
       $('.seattle img').attr('src', weather.image);
       $('.seattle title').text(weather.title);
+      $('.seattle .currently').text(weather.currently);    
+    
       
       // Entire weather object
       console.log(weather);
@@ -95,4 +103,6 @@ $.simpleWeather({
     }
   
   });
+
+});
 
